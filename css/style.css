@@ -1,3 +1,6 @@
+
+* { box-sizing: border-box }
+
 body {
 	font-family: PTSans NarrowBold, sans-serif;
 	font-size: 14px;
@@ -34,19 +37,22 @@ h2 {
 	float: left;
 	
 }
-/*h1{
 
-} не понимаю, почему выравнивается по правому краю*/
+.main-navigation>a{
+	float: left;
+	width: 120px;
+	height: 20px;
+}
 
-/* ul.breadcrumbs li{
+.breadcrumbs li{
 	display: inline-block;
 	vertical-align: middle;
-} не помогло */
+} 
 
 .main-left{
 	float: left;
 	width: 220px;
-	margin-right: 20px;
+	
 }
 
 .main-left-item{
