@@ -44,6 +44,10 @@ h2 {
 	height: 20px;
 }
 
+.main-navigation ul{
+	margin: 0;
+}
+
 .breadcrumbs li{
 	display: inline-block;
 	vertical-align: middle;
@@ -53,6 +57,9 @@ h2 {
 	float: left;
 	width: 220px;
 	
+}
+.main-right {
+margin-left: 230px;
 }
 
 .main-left-item{
@@ -77,21 +84,9 @@ h2 {
 	vertical-align: middle;
 }
 
-.main-right-top{
-	float: right;
-	width: 700px;
+article {display: inline-block;
 }
 
-.main-right-bottom{
-	float: right;
-	width: 700px;
-}
-
-article{
-	float:left;
-	width: 220px;
-	margin-right:20px;
-}
 
 article:nth-child(3){
 	margin-right: 0;
